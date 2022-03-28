@@ -11,7 +11,6 @@
   inputs.src-ngtcp2-main.ref   = "refs/heads/main";
   inputs.src-ngtcp2-main.owner = "status-im";
   inputs.src-ngtcp2-main.repo  = "nim-ngtcp2";
-  inputs.src-ngtcp2-main.dir   = "";
   inputs.src-ngtcp2-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
