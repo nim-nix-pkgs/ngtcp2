@@ -37,10 +37,10 @@
       "inputs": {
         "flakeNimbleLib": "flakeNimbleLib",
         "nixpkgs": "nixpkgs",
-        "src-ngtcp2-main": "src-ngtcp2-main"
+        "src-ngtcp2-0_33_0": "src-ngtcp2-0_33_0"
       }
     },
-    "src-ngtcp2-main": {
+    "src-ngtcp2-0_33_0": {
       "flake": false,
       "locked": {
         "lastModified": 1661508235,
@@ -52,7 +52,7 @@
       },
       "original": {
         "owner": "status-im",
-        "ref": "refs/heads/main",
+        "ref": "refs/tags/0.33.0",
         "repo": "nim-ngtcp2",
         "type": "github"
       }
